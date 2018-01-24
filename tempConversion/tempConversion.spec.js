@@ -7,7 +7,7 @@ describe('ftoc', function() {
   it('rounds to 1 decimal', function() {
     expect(ftoc(100)).toEqual(37.8);
   });
-  xit('works with negatives', function() {
+  it('works with negatives', function() {
     expect(ftoc(-100)).toEqual(-73.3);
   });
 });
@@ -19,7 +19,7 @@ describe('ctof', function() {
   it('rounds to 1 decimal', function() {
     expect(ctof(73.2)).toEqual(163.8);
   });
-  xit('works with negatives', function() {
+  it('works with negatives', function() {
     expect(ctof(-10)).toEqual(14);
   });
 });
